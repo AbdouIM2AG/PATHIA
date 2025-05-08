@@ -1,5 +1,0 @@
-=== DFS (limit 7) ===
-Solution: ['down', 'left', 'left', 'up', 'up', 'left', 'left']
-Valid solution: True
-Makespan: 7
-Duration: 0.0036 s

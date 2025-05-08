@@ -1,0 +1,110 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "problem_20.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (142 actions, 231 fluents)
+
+* Starting ASTAR search with FAST_FORWARD heuristic 
+* ASTAR search succeeded
+
+found plan as follows:
+
+00: (      move-down p7_4 p8_4) [0]
+01: (     move-right p8_4 p8_5) [0]
+02: (  push-up p8_5 p7_5 p6_5) [0]
+03: (  push-up p7_5 p6_5 p5_5) [0]
+04: (  push-up p6_5 p5_5 p4_5) [0]
+05: (push-left p5_5 p5_4 p5_3) [0]
+06: (push-down p5_4 p6_4 p7_4) [0]
+07: (      move-left p6_4 p6_3) [0]
+08: (      move-left p6_3 p6_2) [0]
+09: (        move-up p6_2 p5_2) [0]
+10: (push-right p5_2 p5_3 p5_4) [0]
+11: (push-right p5_3 p5_4 p5_5) [0]
+12: (      move-down p5_4 p6_4) [0]
+13: (     move-right p6_4 p6_5) [0]
+14: (      move-down p6_5 p7_5) [0]
+15: (      move-down p7_5 p8_5) [0]
+16: (      move-left p8_5 p8_4) [0]
+17: (  push-up p8_4 p7_4 p6_4) [0]
+18: (     move-right p7_4 p7_5) [0]
+19: (        move-up p7_5 p6_5) [0]
+20: (push-left p6_5 p6_4 p6_3) [0]
+21: (        move-up p6_4 p5_4) [0]
+22: (      move-left p5_4 p5_3) [0]
+23: (      move-left p5_3 p5_2) [0]
+24: (      move-down p5_2 p6_2) [0]
+25: (push-right p6_2 p6_3 p6_4) [0]
+26: (push-right p6_3 p6_4 p6_5) [0]
+27: (        move-up p6_4 p5_4) [0]
+28: (  push-up p5_4 p4_4 p3_4) [0]
+29: (push-right p4_4 p4_5 p4_6) [0]
+30: (        move-up p4_5 p3_5) [0]
+31: (     move-right p3_5 p3_6) [0]
+32: (     move-right p3_6 p3_7) [0]
+33: (      move-down p3_7 p4_7) [0]
+34: (push-left p4_7 p4_6 p4_5) [0]
+35: (      move-down p4_6 p5_6) [0]
+36: (push-left p5_6 p5_5 p5_4) [0]
+37: (push-left p5_5 p5_4 p5_3) [0]
+38: (      move-down p5_4 p6_4) [0]
+39: (      move-down p6_4 p7_4) [0]
+40: (     move-right p7_4 p7_5) [0]
+41: (  push-up p7_5 p6_5 p5_5) [0]
+42: (      move-left p6_5 p6_4) [0]
+43: (        move-up p6_4 p5_4) [0]
+44: (        move-up p5_4 p4_4) [0]
+45: (push-right p4_4 p4_5 p4_6) [0]
+46: (        move-up p4_5 p3_5) [0]
+47: (        move-up p3_5 p2_5) [0]
+48: (      move-left p2_5 p2_4) [0]
+49: (push-down p2_4 p3_4 p4_4) [0]
+50: (push-down p3_4 p4_4 p5_4) [0]
+51: (push-down p4_4 p5_4 p6_4) [0]
+52: (push-down p5_4 p6_4 p7_4) [0]
+53: (     move-right p6_4 p6_5) [0]
+54: (  push-up p6_5 p5_5 p4_5) [0]
+55: (     move-right p5_5 p5_6) [0]
+56: (  push-up p5_6 p4_6 p3_6) [0]
+57: (     move-right p4_6 p4_7) [0]
+58: (        move-up p4_7 p3_7) [0]
+59: (push-left p3_7 p3_6 p3_5) [0]
+60: (      move-down p3_6 p4_6) [0]
+61: (      move-down p4_6 p5_6) [0]
+62: (      move-left p5_6 p5_5) [0]
+63: (      move-left p5_5 p5_4) [0]
+64: (      move-down p5_4 p6_4) [0]
+65: (      move-left p6_4 p6_3) [0]
+66: (      move-left p6_3 p6_2) [0]
+67: (        move-up p6_2 p5_2) [0]
+68: (push-right p5_2 p5_3 p5_4) [0]
+69: (push-right p5_3 p5_4 p5_5) [0]
+70: (      move-down p5_4 p6_4) [0]
+71: (     move-right p6_4 p6_5) [0]
+72: (      move-down p6_5 p7_5) [0]
+73: (      move-down p7_5 p8_5) [0]
+74: (      move-left p8_5 p8_4) [0]
+75: (  push-up p8_4 p7_4 p6_4) [0]
+76: (     move-right p7_4 p7_5) [0]
+77: (        move-up p7_5 p6_5) [0]
+78: (push-left p6_5 p6_4 p6_3) [0]
+79: (        move-up p6_4 p5_4) [0]
+80: (      move-left p5_4 p5_3) [0]
+81: (      move-left p5_3 p5_2) [0]
+82: (      move-down p5_2 p6_2) [0]
+83: (push-right p6_2 p6_3 p6_4) [0]
+84: (push-right p6_3 p6_4 p6_5) [0]
+
+time spent:       0,04 seconds parsing 
+                  0,18 seconds encoding 
+                  1,53 seconds searching
+                  1,74 seconds total time
+
+memory used:      0,80 MBytes for problem representation
+                  3,34 MBytes for searching
+                  4,14 MBytes total
+
+

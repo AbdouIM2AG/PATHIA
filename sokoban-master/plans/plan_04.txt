@@ -1,0 +1,63 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "problem_04.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (82 actions, 133 fluents)
+
+* Starting ASTAR search with FAST_FORWARD heuristic 
+* ASTAR search succeeded
+
+found plan as follows:
+
+00: (  push-up p6_5 p5_5 p4_5) [0]
+01: (     move-right p5_5 p5_6) [0]
+02: (        move-up p5_6 p4_6) [0]
+03: (push-left p4_6 p4_5 p4_4) [0]
+04: (      move-down p4_5 p5_5) [0]
+05: (push-left p5_5 p5_4 p5_3) [0]
+06: (  push-up p5_4 p4_4 p3_4) [0]
+07: (      move-left p4_4 p4_3) [0]
+08: (        move-up p4_3 p3_3) [0]
+09: (        move-up p3_3 p2_3) [0]
+10: (     move-right p2_3 p2_4) [0]
+11: (     move-right p2_4 p2_5) [0]
+12: (push-down p2_5 p3_5 p4_5) [0]
+13: (push-left p3_5 p3_4 p3_3) [0]
+14: (      move-down p3_4 p4_4) [0]
+15: (      move-down p4_4 p5_4) [0]
+16: (     move-right p5_4 p5_5) [0]
+17: (     move-right p5_5 p5_6) [0]
+18: (        move-up p5_6 p4_6) [0]
+19: (push-left p4_6 p4_5 p4_4) [0]
+20: (      move-down p4_5 p5_5) [0]
+21: (      move-left p5_5 p5_4) [0]
+22: (  push-up p5_4 p4_4 p3_4) [0]
+23: (      move-left p4_4 p4_3) [0]
+24: (      move-left p4_3 p4_2) [0]
+25: (      move-down p4_2 p5_2) [0]
+26: (push-right p5_2 p5_3 p5_4) [0]
+27: (push-right p5_3 p5_4 p5_5) [0]
+28: (        move-up p5_4 p4_4) [0]
+29: (     move-right p4_4 p4_5) [0]
+30: (     move-right p4_5 p4_6) [0]
+31: (      move-down p4_6 p5_6) [0]
+32: (      move-down p5_6 p6_6) [0]
+33: (      move-left p6_6 p6_5) [0]
+34: (  push-up p6_5 p5_5 p4_5) [0]
+35: (     move-right p5_5 p5_6) [0]
+36: (        move-up p5_6 p4_6) [0]
+37: (push-left p4_6 p4_5 p4_4) [0]
+
+time spent:       0,04 seconds parsing 
+                  0,15 seconds encoding 
+                  0,09 seconds searching
+                  0,29 seconds total time
+
+memory used:      0,49 MBytes for problem representation
+                  0,23 MBytes for searching
+                  0,72 MBytes total
+
+
