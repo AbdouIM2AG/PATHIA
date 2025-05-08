@@ -1,0 +1,5 @@
+=== DFS (limit 3) ===
+Solution: ['left']
+Valid solution: True
+Makespan: 1
+Duration: 0.0002 s

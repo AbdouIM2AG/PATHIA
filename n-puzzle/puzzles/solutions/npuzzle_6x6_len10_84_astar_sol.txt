@@ -1,0 +1,5 @@
+=== A* (Manhattan) ===
+Solution: ['up', 'left', 'left', 'left', 'left', 'down', 'right', 'up', 'left', 'left']
+Valid solution: True
+Makespan: 10
+Duration: 0.0003 s

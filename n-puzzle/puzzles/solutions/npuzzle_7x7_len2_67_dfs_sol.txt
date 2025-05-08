@@ -1,0 +1,5 @@
+=== DFS (limit 2) ===
+Solution: ['up', 'up']
+Valid solution: True
+Makespan: 2
+Duration: 0.0004 s
