@@ -1,0 +1,5 @@
+=== BFS ===
+Solution: ['left', 'up', 'up']
+Valid solution: True
+Makespan: 3
+Duration: 0.0014 s

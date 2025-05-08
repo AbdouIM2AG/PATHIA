@@ -1,0 +1,5 @@
+=== DFS (limit 10) ===
+Solution: ['right', 'right', 'down', 'right', 'up', 'left', 'left', 'left']
+Valid solution: True
+Makespan: 8
+Duration: 0.0080 s
