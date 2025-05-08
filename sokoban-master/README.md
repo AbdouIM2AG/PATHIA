@@ -20,7 +20,7 @@ sokoban-master/
 
 ├── domain.pddl # Définition des actions et types PDDL
 
-├── generate_pddl_from_json.py # JSON → problème PDDL
+├── generate_test1_pddl.py # JSON → problème PDDL
 
 ├── generate_plan.sh # Résolution automatique (PDDL4J)
 
@@ -48,7 +48,7 @@ sokoban-master/
 ### 1. Génération des fichiers PDDL
 
 ```bash
-python3 generate_pddl_from_json.py
+python3 generate_test1_pddl.py
 ```
 
 → Crée tous les fichiers problem_XX.pddl dans generated_pddl/
