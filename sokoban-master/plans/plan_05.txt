@@ -1,0 +1,88 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "problem_05.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (86 actions, 147 fluents)
+
+* Starting ASTAR search with FAST_FORWARD heuristic 
+* ASTAR search succeeded
+
+found plan as follows:
+
+00: (push-left p5_5 p5_4 p5_3) [0]
+01: (     move-right p5_4 p5_5) [0]
+02: (     move-right p5_5 p5_6) [0]
+03: (        move-up p5_6 p4_6) [0]
+04: (        move-up p4_6 p3_6) [0]
+05: (      move-left p3_6 p3_5) [0]
+06: (        move-up p3_5 p2_5) [0]
+07: (      move-left p2_5 p2_4) [0]
+08: (push-down p2_4 p3_4 p4_4) [0]
+09: (push-down p3_4 p4_4 p5_4) [0]
+10: (        move-up p4_4 p3_4) [0]
+11: (        move-up p3_4 p2_4) [0]
+12: (      move-left p2_4 p2_3) [0]
+13: (      move-left p2_3 p2_2) [0]
+14: (      move-down p2_2 p3_2) [0]
+15: (      move-down p3_2 p4_2) [0]
+16: (push-right p4_2 p4_3 p4_4) [0]
+17: (push-down p4_3 p5_3 p6_3) [0]
+18: (push-right p5_3 p5_4 p5_5) [0]
+19: (  push-up p5_4 p4_4 p3_4) [0]
+20: (  push-up p4_4 p3_4 p2_4) [0]
+21: (      move-down p3_4 p4_4) [0]
+22: (      move-left p4_4 p4_3) [0]
+23: (      move-left p4_3 p4_2) [0]
+24: (        move-up p4_2 p3_2) [0]
+25: (        move-up p3_2 p2_2) [0]
+26: (     move-right p2_2 p2_3) [0]
+27: (push-right p2_3 p2_4 p2_5) [0]
+28: (      move-down p2_4 p3_4) [0]
+29: (      move-down p3_4 p4_4) [0]
+30: (      move-down p4_4 p5_4) [0]
+31: (      move-down p5_4 p6_4) [0]
+32: (      move-down p6_4 p7_4) [0]
+33: (      move-left p7_4 p7_3) [0]
+34: (  push-up p7_3 p6_3 p5_3) [0]
+35: (  push-up p6_3 p5_3 p4_3) [0]
+36: (     move-right p5_3 p5_4) [0]
+37: (        move-up p5_4 p4_4) [0]
+38: (        move-up p4_4 p3_4) [0]
+39: (        move-up p3_4 p2_4) [0]
+40: (      move-left p2_4 p2_3) [0]
+41: (      move-left p2_3 p2_2) [0]
+42: (      move-down p2_2 p3_2) [0]
+43: (      move-down p3_2 p4_2) [0]
+44: (push-right p4_2 p4_3 p4_4) [0]
+45: (      move-left p4_3 p4_2) [0]
+46: (        move-up p4_2 p3_2) [0]
+47: (        move-up p3_2 p2_2) [0]
+48: (     move-right p2_2 p2_3) [0]
+49: (     move-right p2_3 p2_4) [0]
+50: (      move-down p2_4 p3_4) [0]
+51: (     move-right p3_4 p3_5) [0]
+52: (     move-right p3_5 p3_6) [0]
+53: (        move-up p3_6 p2_6) [0]
+54: (push-left p2_6 p2_5 p2_4) [0]
+55: (push-left p2_5 p2_4 p2_3) [0]
+56: (     move-right p2_4 p2_5) [0]
+57: (     move-right p2_5 p2_6) [0]
+58: (      move-down p2_6 p3_6) [0]
+59: (      move-down p3_6 p4_6) [0]
+60: (      move-down p4_6 p5_6) [0]
+61: (push-left p5_6 p5_5 p5_4) [0]
+62: (push-left p5_5 p5_4 p5_3) [0]
+
+time spent:       0,04 seconds parsing 
+                  0,14 seconds encoding 
+                  0,09 seconds searching
+                  0,26 seconds total time
+
+memory used:      0,52 MBytes for problem representation
+                  0,15 MBytes for searching
+                  0,67 MBytes total
+
+

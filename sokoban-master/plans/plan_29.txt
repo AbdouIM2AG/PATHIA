@@ -1,0 +1,118 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "problem_29.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (163 actions, 264 fluents)
+
+* Starting ASTAR search with FAST_FORWARD heuristic 
+* ASTAR search succeeded
+
+found plan as follows:
+
+00: (      move-down p5_6 p6_6) [0]
+01: (      move-left p6_6 p6_5) [0]
+02: (      move-left p6_5 p6_4) [0]
+03: (  push-up p6_4 p5_4 p4_4) [0]
+04: (  push-up p5_4 p4_4 p3_4) [0]
+05: (      move-down p4_4 p5_4) [0]
+06: (      move-down p5_4 p6_4) [0]
+07: (     move-right p6_4 p6_5) [0]
+08: (     move-right p6_5 p6_6) [0]
+09: (        move-up p6_6 p5_6) [0]
+10: (push-left p5_6 p5_5 p5_4) [0]
+11: (      move-down p5_5 p6_5) [0]
+12: (      move-left p6_5 p6_4) [0]
+13: (  push-up p6_4 p5_4 p4_4) [0]
+14: (     move-right p5_4 p5_5) [0]
+15: (     move-right p5_5 p5_6) [0]
+16: (      move-down p5_6 p6_6) [0]
+17: (      move-down p6_6 p7_6) [0]
+18: (      move-down p7_6 p8_6) [0]
+19: (      move-left p8_6 p8_5) [0]
+20: (  push-up p8_5 p7_5 p6_5) [0]
+21: (     move-right p7_5 p7_6) [0]
+22: (        move-up p7_6 p6_6) [0]
+23: (        move-up p6_6 p5_6) [0]
+24: (      move-left p5_6 p5_5) [0]
+25: (      move-left p5_5 p5_4) [0]
+26: (      move-down p5_4 p6_4) [0]
+27: (push-right p6_4 p6_5 p6_6) [0]
+28: (        move-up p6_5 p5_5) [0]
+29: (      move-left p5_5 p5_4) [0]
+30: (      move-left p5_4 p5_3) [0]
+31: (        move-up p5_3 p4_3) [0]
+32: (        move-up p4_3 p3_3) [0]
+33: (push-right p3_3 p3_4 p3_5) [0]
+34: (        move-up p3_4 p2_4) [0]
+35: (     move-right p2_4 p2_5) [0]
+36: (     move-right p2_5 p2_6) [0]
+37: (      move-down p2_6 p3_6) [0]
+38: (push-left p3_6 p3_5 p3_4) [0]
+39: (push-down p3_5 p4_5 p5_5) [0]
+40: (push-down p4_5 p5_5 p6_5) [0]
+41: (      move-left p5_5 p5_4) [0]
+42: (      move-left p5_4 p5_3) [0]
+43: (        move-up p5_3 p4_3) [0]
+44: (push-right p4_3 p4_4 p4_5) [0]
+45: (      move-down p4_4 p5_4) [0]
+46: (     move-right p5_4 p5_5) [0]
+47: (     move-right p5_5 p5_6) [0]
+48: (push-down p5_6 p6_6 p7_6) [0]
+49: (     move-right p6_6 p6_7) [0]
+50: (     move-right p6_7 p6_8) [0]
+51: (        move-up p6_8 p5_8) [0]
+52: (push-left p5_8 p5_7 p5_6) [0]
+53: (push-left p5_7 p5_6 p5_5) [0]
+54: (push-left p5_6 p5_5 p5_4) [0]
+55: (push-left p5_5 p5_4 p5_3) [0]
+56: (        move-up p5_4 p4_4) [0]
+57: (      move-left p4_4 p4_3) [0]
+58: (        move-up p4_3 p3_3) [0]
+59: (push-right p3_3 p3_4 p3_5) [0]
+60: (        move-up p3_4 p2_4) [0]
+61: (     move-right p2_4 p2_5) [0]
+62: (     move-right p2_5 p2_6) [0]
+63: (      move-down p2_6 p3_6) [0]
+64: (push-left p3_6 p3_5 p3_4) [0]
+65: (        move-up p3_5 p2_5) [0]
+66: (      move-left p2_5 p2_4) [0]
+67: (push-down p2_4 p3_4 p4_4) [0]
+68: (      move-left p3_4 p3_3) [0]
+69: (      move-down p3_3 p4_3) [0]
+70: (      move-left p4_3 p4_2) [0]
+71: (      move-down p4_2 p5_2) [0]
+72: (push-right p5_2 p5_3 p5_4) [0]
+73: (push-right p5_3 p5_4 p5_5) [0]
+74: (      move-down p5_4 p6_4) [0]
+75: (push-right p6_4 p6_5 p6_6) [0]
+76: (push-right p6_5 p6_6 p6_7) [0]
+77: (        move-up p6_6 p5_6) [0]
+78: (push-left p5_6 p5_5 p5_4) [0]
+79: (      move-down p5_5 p6_5) [0]
+80: (      move-down p6_5 p7_5) [0]
+81: (      move-down p7_5 p8_5) [0]
+82: (     move-right p8_5 p8_6) [0]
+83: (  push-up p8_6 p7_6 p6_6) [0]
+84: (      move-left p7_6 p7_5) [0]
+85: (        move-up p7_5 p6_5) [0]
+86: (        move-up p6_5 p5_5) [0]
+87: (  push-up p5_5 p4_5 p3_5) [0]
+88: (push-left p4_5 p4_4 p4_3) [0]
+89: (        move-up p4_4 p3_4) [0]
+90: (        move-up p3_4 p2_4) [0]
+91: (     move-right p2_4 p2_5) [0]
+92: (push-down p2_5 p3_5 p4_5) [0]
+
+time spent:       0,05 seconds parsing 
+                  0,22 seconds encoding 
+                  5,02 seconds searching
+                  5,29 seconds total time
+
+memory used:      0,91 MBytes for problem representation
+                 20,26 MBytes for searching
+                 21,17 MBytes total
+
+
