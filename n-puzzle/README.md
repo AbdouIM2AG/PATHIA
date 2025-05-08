@@ -54,13 +54,32 @@
    - **BFS** : seules les exécutions les plus rapides sont comptées → moyenne artificiellement basse sur les grandes tailles.  
    - **DFS** : un timeout fixe borne son temps de résolution maximal, écrasant les écarts naturels.
 
----
-
-### 🚀 Pistes d’amélioration  
-- **Utiliser la médiane** (ou percentiles) plutôt que la moyenne pour réduire l’impact des outliers.  
-- **Filtrer/annoter** les timeouts dans les CSV avant calcul de la moyenne.  
-- **Tester d’autres heuristiques** (Hamming, linéaire, etc.) pour comparer leur efficacité.  
-- **Tracer la distribution complète** (box‑plots) pour visualiser l’étendue des performances.  
 
 ---
-*— Fin de l’analyse —*
+# 📂 Organisation du Projet NPuzzle
+
+Ce dépôt contient l’implémentation complète du TP1 **NPuzzle**, avec :
+- 🧩 **Génération** de puzzles via un script Python  
+- 🤖 **Solveurs** en BFS, DFS et A*  
+- 📊 **Analyse** des performances et visualisation dans un **Notebook Jupyter**
+
+---
+
+## 🗂️ Arborescence
+
+npuzzle/
+├── pycache/ # Fichiers compilés Python
+
+├── puzzles/ # Jeux de données (.txt)
+
+├── generate_npuzzle.py # Générateur de puzzles
+
+├── solve_npuzzle.py # Solveur (BFS, DFS, A*)
+
+├── solve_all.py # Lance tous les solveurs sur un batch
+
+├── gen_all.sh # Script shell (génération + résolution)
+
+├── analysis.ipynb # ⭐ Notebook Jupyter d’analyse complète
+
+└── README.md # 📖 Documentation du projet
