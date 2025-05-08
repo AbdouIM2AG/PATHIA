@@ -1,5 +1,0 @@
-=== DFS (limit 1) ===
-Solution: ['up']
-Valid solution: True
-Makespan: 1
-Duration: 0.0005 s

@@ -1,5 +1,0 @@
-=== BFS ===
-Solution: ['up']
-Valid solution: True
-Makespan: 1
-Duration: 0.0000 s
