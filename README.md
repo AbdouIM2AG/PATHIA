@@ -16,7 +16,7 @@ TP2 : Planification PDDL
 
 README.md : Domaines et problèmes PDDL (Hanoï, Taquin, Sokoban)
 
-## sokoban/
+## sokoban-master/
 
 TP3 : Sokoban Web
 
