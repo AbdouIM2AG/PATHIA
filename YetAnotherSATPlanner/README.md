@@ -39,6 +39,8 @@ YetAnotherSatPlanner/
 
 Vous n'aurez besoin d'utiliser que le script yetnanothersatplanner.sh
 
-1- Dans le terminal, exécuter le script avec ./yetanothersatplanner.sh.
-2- Vous verrez un menu apparaitre dans le terminal, choisissez 1 pour compiler les fichiers.
+1- Dans le terminal, exécuter le script avec la commande ./yetanothersatplanner.sh.
+
+2- Vous verrez un menu apparaitre dans le terminal, qui vous demandera de choisir parmi 3 options en entrant 1, 2 ou 3. Choisissez 1 pour compiler les fichiers.
+
 3- Une fois les fichiers compilés, choisissez l'option 2 et entrez les chemins des fichiers contenant le domaine et le problème à résoudre.
