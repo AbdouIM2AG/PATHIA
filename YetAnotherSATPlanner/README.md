@@ -18,7 +18,7 @@ YetAnotherSatPlanner/
 
 │   ├── SATEncoding.java # Encodage SAT des problèmes de planification
 
-│   ├── YetAnotherSATPlanner.java # Définition des problèmes de planification
+│   ├── YetAnotherSATPlanner.java # Résout les problèmes de planification
 
 ├── domain.pddl # défini le domaine du problème de planification
 
